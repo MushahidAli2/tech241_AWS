@@ -1,6 +1,6 @@
 # Task 1.2: Automation L3.5 - Setup Sparta test app (with working posts page) on AWS using scripts (from Azure)
 
-This document outlines the steps to set up the Sparta test app on AWS using scripts.
+This document outlines the steps to set up the Sparta test app on AWS using scripts.For more details on the script please refer to the Linux repo.
 
 ## Prerequisites
 
