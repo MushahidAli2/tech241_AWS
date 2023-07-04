@@ -78,6 +78,8 @@ sudo systemctl enable nginx
 # Start nginx
 sudo systemctl start nginx
 
+sudo apt install sed -y
+
 # Add proxy command
 sudo sed -i 's|try_files $uri $uri/ =404;|proxy_pass http://localhost:3000;|' /etc/nginx/sites-available/default
 
