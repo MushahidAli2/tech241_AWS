@@ -26,31 +26,6 @@ A private IP address is an IP address that is used within a private network and 
 - **Limited External Access**: Private IP addresses are not accessible directly from the internet. If you need to provide external access to your resources, you will need to set up port forwarding, VPNs, or utilize a bastion host.
 - **Complexity of Remote Management**: Accessing resources with private IP addresses remotely requires establishing a secure connection using a VPN or bastion host, which adds complexity to remote administration.
 
-## Diagram: Public IP Address vs Private IP Address Deployment
-
-```python
-
-                                  +-----------------------------------+
-                                  |              Internet               |
-                                  +-----------------------------------+
-                                                |
-                                                |
-                              +-----------------+-----------------+
-                              |                                     |
-                              |          Public IP Address           |
-                              |                                     |
-                              |                                     |
-                        +-----+-----+                         +-----+-----+
-                        |           |                         |           |
-                        |   App     |                         |    DB     |
-                        |  Server   |                         |  Server   |
-                        |           |                         |           |
-                        +-----------+                         +-----------+
-
-```
-
-In the diagram above, the "App Server" and "DB Server" represent instances in your deployment. The "App Server" has a public IP address, allowing direct access from the internet. The "DB Server" uses a private IP address and is not directly accessible from the internet.
-
 ## Understanding the App and DB Deployment
 
 Understanding the difference between public IP addresses and private IP addresses can help in planning the deployment of your app and database. Here's how:
