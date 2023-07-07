@@ -19,6 +19,8 @@ A VPC allows users to define and manage their virtual network within the cloud. 
 AWS introduced VPCs to address the need for more control and isolation within cloud environments. Prior to VPCs, AWS used the EC2-Classic model, where instances were launched into a shared, flat network. However, as the demand for more secure and customized network environments grew, AWS introduced VPCs to provide customers with dedicated and isolated virtual networks. VPCs offered enhanced security, increased flexibility, and improved networking capabilities for businesses using AWS.
 
 ## Diagram
+![VPC diagram.png](VPC%20diagram.png)
+
 ```python
                                   +------------------+
                                   |     Internet     |
