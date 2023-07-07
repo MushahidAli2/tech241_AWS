@@ -30,6 +30,7 @@ Follow these steps to set up a VPC with a two-tier architecture:
    - Availability Zone: Choose an availability zone for the subnet.
    - IPv4 CIDR block: Specify the subnet's CIDR block.
 3. Repeat the above steps to create both the public and private subnets.
+![subnet screenshot.jpeg](subnet%20screenshot.jpeg)
 
 ### 3. Configure Route Tables
 
@@ -43,7 +44,7 @@ Follow these steps to set up a VPC with a two-tier architecture:
      - Destination: `0.0.0.0/0`
      - Target: NAT Gateway or NAT Instance (for internet access from private subnet)
 4. Associate the public subnet with the default route table.
-
+![routes.jpeg](routes.jpeg)
 ### 4. Set Up Internet Gateway (IGW)
 
 1. In the VPC dashboard, go to "Internet Gateways" in the sidebar.
